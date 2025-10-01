@@ -1,5 +1,150 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GitHub介绍和发展史</title><link>https://XOX-zip.github.io/The-History-of-GitHub</link><description>探索更多GitHub功能</description><copyright>GitHub介绍和发展史</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/235296676?v=4</url><title>avatar</title><link>https://XOX-zip.github.io/The-History-of-GitHub</link></image><lastBuildDate>Wed, 01 Oct 2025 03:42:18 +0000</lastBuildDate><managingEditor>GitHub介绍和发展史</managingEditor><ttl>60</ttl><webMaster>GitHub介绍和发展史</webMaster><item><title>🎨 GitHub 小组件大全：让个人主页和专业简历活起来</title><link>https://XOX-zip.github.io/The-History-of-GitHub/post/%F0%9F%8E%A8%20GitHub%20-xiao-zu-jian-da-quan-%EF%BC%9A-rang-ge-ren-zhu-ye-he-zhuan-ye-jian-li-huo-qi-lai.html</link><description>&lt;div align='center'&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GitHub介绍和发展史</title><link>https://XOX-zip.github.io/The-History-of-GitHub</link><description>探索更多GitHub功能</description><copyright>GitHub介绍和发展史</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/235296676?v=4</url><title>avatar</title><link>https://XOX-zip.github.io/The-History-of-GitHub</link></image><lastBuildDate>Wed, 01 Oct 2025 04:02:42 +0000</lastBuildDate><managingEditor>GitHub介绍和发展史</managingEditor><ttl>60</ttl><webMaster>GitHub介绍和发展史</webMaster><item><title>🕰️ GitHub 发展史诗：从代码托管到开发者帝国的完整历程</title><link>https://XOX-zip.github.io/The-History-of-GitHub/post/%F0%9F%95%B0%EF%B8%8F%20GitHub%20-fa-zhan-shi-shi-%EF%BC%9A-cong-dai-ma-tuo-guan-dao-kai-fa-zhe-di-guo-de-wan-zheng-li-cheng.html</link><description>&lt;div align='center'&gt;
+
+# 🕰️ GitHub 发展史诗：从代码托管到开发者帝国的完整历程
+
+**一部记录 GitHub 如何重塑软件开发方式的编年史**
+
+&lt;!-- 使用表格模拟数据卡片 --&gt;
+| 🌍 全球开发者 | 📦 代码仓库 | 🏢 企业用户 |
+|---------------|-------------|-------------|
+| **85,000,000+** | **200,000,000+** | **17,000,000+** |
+
+&lt;/div&gt;
+
+---
+
+## 🎮 互动体验区
+
+### 时间线探索器
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;📅 交互式时间线 - 点击探索各时期详情&lt;/b&gt;&lt;/summary&gt;
+
+```markdown
+## 🎯 选择时期探索：
+
+### [2008-2012] 🚀 初创期 - 点击展开
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;初创期详情&lt;/b&gt;&lt;/summary&gt;
+
+**关键事件：**
+- 🎂 2008年4月：GitHub 正式上线
+- 👥 2009年：获得首轮投资
+- 💼 2011年：GitHub Enterprise 发布
+- 📈 2012年：仓库数突破1000万
+
+**数据增长：**
+```
+用户增长: 0 → 350万
+仓库增长: 0 → 1000万
+团队规模: 3人 → 100+人
+```
+
+&lt;/details&gt;
+
+### [2013-2017] 📈 成长期 - 点击展开  
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;成长期详情&lt;/b&gt;&lt;/summary&gt;
+
+**关键事件：**
+- 🔧 2014年：GitHub Pages 改进
+- 🤖 2016年：API v4 (GraphQL) 发布
+- 🌐 2017年：GitHub Community 推出
+
+**数据增长：**
+```
+用户增长: 350万 → 2400万
+仓库增长: 1000万 → 6700万
+企业客户: 100+ → 数千家
+```
+
+&lt;/details&gt;
+
+### [2018-2021] 🤝 变革期 - 点击展开
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;变革期详情&lt;/b&gt;&lt;/summary&gt;
+
+**关键事件：**
+- 🏢 2018年：微软75亿美元收购
+- ⚡ 2019年：GitHub Actions 正式发布
+- 🤖 2021年：GitHub Copilot 发布
+
+**数据增长：**
+```
+用户增长: 2400万 → 5600万
+仓库增长: 6700万 → 1.4亿
+AI功能: 从无到有
+```
+
+&lt;/details&gt;
+```
+
+&lt;/details&gt;
+
+### GitHub 功能体验区
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;🛠️ 模拟 GitHub 功能 - 通过选择体验&lt;/b&gt;&lt;/summary&gt;
+
+```markdown
+## 模拟 Pull Request 流程
+
+**代码变更：**
+```diff
+// 修改前
+- function welcome() { return 'Hello World'; }
+// 修改后  
++ function welcome() { return 'Hello GitHub History!'; }
+```
+
+**你的操作选择：**
+- [ ] ✅ **批准合并** - 代码看起来很好！
+- [ ] 💬 **请求修改** - 需要改进某些部分
+- [ ] 📝 **添加评论** - 提出具体建议
+
+**模拟结果：**
+&gt; 如果你选择了 ✅ 批准合并：
+&gt; - PR 将被合并到 main 分支
+&gt; - 代码将进入生产环境
+&gt; - 贡献者会收到通知
+
+## GitHub Actions 工作流模拟
+
+```yaml
+# 工作流定义
+name: CI/CD Pipeline
+jobs:
+  test: ✅ 测试通过
+  build: ✅ 构建成功  
+  deploy: ⏳ 正在部署
+```
+
+**工作流状态：**
+- 🔄 **进行中** - 自动化测试
+- ✅ **已完成** - 代码构建
+- 🚀 **待执行** - 生产部署
+
+&gt; 💡 在真实的 GitHub 中，这些步骤会自动执行
+```
+
+&lt;/details&gt;
+
+---
+
+## 🎯 互动学习区
+
+### GitHub 知识问答
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;❓ 测试你的 GitHub 知识&lt;/b&gt;&lt;/summary&gt;
+
+```markdown
+## GitHub 知识挑战
+
+### 问题 1: GitHub 是哪一年成立的？
+请选择你的答案：
+
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;A. 2005年&lt;/b&gt;&lt;/summary&gt;
+❌ 不正确！2005年是 Git 工具诞生的一年。</description><guid isPermaLink="true">https://XOX-zip.github.io/The-History-of-GitHub/post/%F0%9F%95%B0%EF%B8%8F%20GitHub%20-fa-zhan-shi-shi-%EF%BC%9A-cong-dai-ma-tuo-guan-dao-kai-fa-zhe-di-guo-de-wan-zheng-li-cheng.html</guid><pubDate>Wed, 01 Oct 2025 04:02:09 +0000</pubDate></item><item><title>🎨 GitHub 小组件大全：让个人主页和专业简历活起来</title><link>https://XOX-zip.github.io/The-History-of-GitHub/post/%F0%9F%8E%A8%20GitHub%20-xiao-zu-jian-da-quan-%EF%BC%9A-rang-ge-ren-zhu-ye-he-zhuan-ye-jian-li-huo-qi-lai.html</link><description>&lt;div align='center'&gt;
 
 # 🎨 GitHub 小组件大全：让个人主页和专业简历活起来
 
