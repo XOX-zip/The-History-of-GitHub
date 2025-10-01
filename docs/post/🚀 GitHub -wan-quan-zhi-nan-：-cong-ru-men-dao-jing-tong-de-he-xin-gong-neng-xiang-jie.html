@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    
+    <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="<div align='center'>
+
+# 🚀 GitHub 完全指南：从入门到精通的核心功能详解
+
+解锁 GitHub 的全部潜力，提升开发效率 10 倍！
+
+</div>
+
+---
+
+## 📖 目录导航
+- [🎯 核心功能](#-核心功能)
+- [🛠️ 开发工具](#️-开发工具)
+- [🤖 自动化神器](#-自动化神器)
+- [🔒 安全防护](#-安全防护)
+- [🌐 协作功能](#-协作功能)
+- [🚀 高级技巧](#-高级技巧)
+
+---
+
+## 🎯 核心功能
+
+### 📝 代码托管与版本控制
+| 功能 | 描述 | 适用场景 |
+|------|------|----------|
+| **Git 仓库** | 分布式版本控制 | 所有软件开发项目 |
+| **分支管理** | 功能分支工作流 | 团队协作开发 |
+| **代码审查** | Pull Request 流程 | 质量保证 |
+| **Issue 跟踪** | 任务和问题管理 | 项目管理 |
+
+### 🏗️ 项目管理
+```markdown
+## Projects 看板
+- ✅ 任务状态跟踪
+- 📅 时间线规划  
+- 👥 团队任务分配
+- 📊 进度可视化
+
+## Milestones
+- 版本发布规划
+- 功能模块分组
+- 进度里程碑
+```
+
+---
+
+## 🛠️ 开发工具
+
+### 💻 GitHub Codespaces
+<details>
+<summary><b>🌩️ 云端开发环境</b></summary>
+
+```json
+{
+  'features': {
+    '云端开发': '浏览器中完整开发环境',
+    '预配置环境': '开箱即用的开发配置', 
+    '多设备同步': '随时随地继续编码',
+    '资源弹性': '按需分配计算资源'
+  }
+}
+```
+
+**使用场景：**
+- 🎒 无需本地环境配置
+- 💻 低配设备也能开发
+- 👥 团队环境统一
+- 🔄 快速 onboarding
+
+</details>
+
+### 📱 GitHub Mobile
+<details>
+<summary><b>📲 移动端全功能支持</b></summary>
+
+- **代码浏览**: 在手机上查看代码
+- **Issue 管理**: 随时随地处理任务
+- **通知中心**: 实时接收重要更新
+- **代码审查**: 移动端 PR 审查
+
+**特色功能：**
+- 📬 智能通知分类
+- 👆 便捷手势操作
+- 🔔 个性化提醒设置
+- 💬 快速评论回复
+
+</details>
+
+---
+
+## 🤖 自动化神器
+
+### ⚡ GitHub Actions
+<details>
+<summary><b>🔄 自动化 CI/CD 流水线</b></summary>
+
+```yaml
+name: 自动化工作流示例
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm test
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest  
+    steps:
+      - run: npm run deploy
+```
+
+**常用场景：**
+- ✅ 自动测试运行
+- 🚀 自动部署发布
+- 📦 自动打包构建
+- 🔍 自动代码检查
+
+</details>
+
+### 🔔 GitHub Packages
+<details>
+<summary><b>📦 一体化包管理</b></summary>
+
+| 包类型 | 描述 | 优势 |
+|--------|------|------|
+| **npm** | JavaScript 包管理 | 与项目代码同仓库 |
+| **Docker** | 容器镜像仓库 | 自动化构建推送 |
+| **Maven** | Java 依赖管理 | 版本统一管理 |
+| **NuGet** | .NET 包管理 | 私有包安全存储 |
+
+</details>
+
+---
+
+## 🔒 安全防护
+
+### 🛡️ 代码安全
+<details>
+<summary><b>🔐 全方位安全保护</b></summary>
+
+```markdown
+## 安全功能矩阵
+- 🔍 **Code Scanning**: 自动代码漏洞检测
+- 📦 **Dependabot**: 依赖安全更新
+- 🔑 **Secret Scanning**: 密钥泄露检测
+- 📋 **Security Policies**: 安全策略定义
+
+## 合规认证
+- SOC 2 Type 2
+- ISO 27001
+- GDPR 合规
+```
+
+**企业级安全：**
+- 🏢 组织级权限管理
+- 👥 团队访问控制
+- 📊 安全审计日志
+- 🔒 单点登录支持
+
+</details>
+
+---
+
+## 🌐 协作功能
+
+### 👥 团队协作
+<details>
+<summary><b>🤝 高效团队协作工具</b></summary>
+
+| 功能 | 描述 | 协作价值 |
+|------|------|----------|
+| **团队讨论** | 项目讨论区 | 异步沟通 |
+| **代码审查** | 内联评论建议 | 质量提升 |
+| **项目看板** | 可视化任务管理 | 进度透明 |
+| **Wiki 文档** | 项目知识库 | 知识沉淀 |
+
+**协作最佳实践：**
+1. **分支策略**: main → develop → feature
+2. **PR 模板**: 标准化代码审查
+3. **Issue 模板**: 规范化问题报告
+4. **CODEOWNERS**: 自动代码审查分配
+
+</details>
+
+### 🌍 开源协作
+<details>
+<summary><b>📚 开源项目管理</b></summary>
+
+```markdown
+## 开源工具集
+- 🏷️ **标签系统**: 分类管理 Issue/PR
+- 📋 **模板系统**: 标准化贡献流程  
+- 👏 **反应功能**: 快速反馈表达
+- 🌟 **Star 机制**: 项目流行度指标
+
+## 社区建设
+- 🗣️ Discussions: 社区交流论坛
+- 📊 Insights: 项目数据分析
+- 👥 Contributors: 贡献者展示
+- 📈 Traffic: 访问统计监控
+```
+
+</details>
+
+---
+
+## 🚀 高级技巧
+
+### ⌨️ 效率快捷键
+<details>
+<summary><b>⚡ 键盘快捷键大全</b></summary>
+
+| 快捷键 | 功能 | 使用频率 |
+|--------|------|----------|
+| `⌘ + K` | 快速仓库跳转 | ⭐⭐⭐⭐⭐ |
+| `⌘ + I` | 创建新 Issue | ⭐⭐⭐⭐☆ |
+| `G + C` | 跳转到代码页 | ⭐⭐⭐⭐☆ |
+| `G + I` | 跳转到 Issues | ⭐⭐⭐⭐☆ |
+| `.` | 打开 Web IDE | ⭐⭐⭐☆☆ |
+
+</details>
+
+### 🎯 隐藏功能
+<details>
+<summary><b>💎 鲜为人知的实用功能</b></summary>
+
+```markdown
+## 代码相关
+- **对比视图**: URL 添加 ?diff=split 查看分屏对比
+- **搜索语法**: 使用 path: extension: 精确搜索代码
+- **快捷键**: 按 T 快速文件搜索
+
+## 项目管理
+- **自动链接**: 输入 # 自动提示 Issue/PR
+- **任务列表**: - [ ] 创建可勾选任务
+- **模板变量**: 在模板中使用 {{ date }} 等变量
+```
+
+</details>
+
+---
+
+## 📊 功能对比指南
+
+### 免费版 vs 付费版
+<details>
+<summary><b>💳 功能差异对比</b></summary>
+
+| 功能 | 免费版 | Pro版 | 企业版 |
+|------|--------|-------|--------|
+| **私有仓库** | ✓ (有限协作) | ✓ (无限协作) | ✓ (高级权限) |
+| **Actions** | 2,000 分钟/月 | 3,000 分钟/月 | 50,000 分钟/月 |
+| **Codespaces** | 120 小时/月 | 180 小时/月 | 自定义额度 |
+| **安全功能** | 基础扫描 | 高级扫描 | 企业级安全 |
+
+</details>
+
+---
+
+<div align='center'>
+
+## 🎉 开始你的 GitHub 之旅
+
+**选择你的学习路径：**
+
+[![基础功能](https://img.shields.io/badge/🎯_基础功能指南-2088FF?style=for-the-badge)](/../../wiki)
+[![高级技巧](https://img.shields.io/badge/🚀_高级技巧大全-28A745?style=for-the-badge)](/../../discussions)
+[![自动化](https://img.shields.io/badge/🤖_自动化工作流-FF6B6B?style=for-the-badge)](/../../actions)
+
+### 📚 推荐学习资源
+- [GitHub Skills](https://skills.github.com/) - 互动学习平台
+- [GitHub Docs](https://docs.github.com/) - 官方完整文档
+- [GitHub Blog](https://github.blog/) - 最新功能发布
+
+**掌握 GitHub，让开发更高效、更愉快！** ✨
+
+</div>
+
+---
+
+<div align='center'>
+
+*💡 提示：将此页面加入书签，随时查阅 GitHub 功能*
+*📅 最后更新: {{ date | date_to_string }}*
+
+</div>。">
+<meta property="og:title" content="🚀 GitHub 完全指南：从入门到精通的核心功能详解">
+<meta property="og:description" content="<div align='center'>
+
+# 🚀 GitHub 完全指南：从入门到精通的核心功能详解
+
+解锁 GitHub 的全部潜力，提升开发效率 10 倍！
+
+</div>
+
+---
+
+## 📖 目录导航
+- [🎯 核心功能](#-核心功能)
+- [🛠️ 开发工具](#️-开发工具)
+- [🤖 自动化神器](#-自动化神器)
+- [🔒 安全防护](#-安全防护)
+- [🌐 协作功能](#-协作功能)
+- [🚀 高级技巧](#-高级技巧)
+
+---
+
+## 🎯 核心功能
+
+### 📝 代码托管与版本控制
+| 功能 | 描述 | 适用场景 |
+|------|------|----------|
+| **Git 仓库** | 分布式版本控制 | 所有软件开发项目 |
+| **分支管理** | 功能分支工作流 | 团队协作开发 |
+| **代码审查** | Pull Request 流程 | 质量保证 |
+| **Issue 跟踪** | 任务和问题管理 | 项目管理 |
+
+### 🏗️ 项目管理
+```markdown
+## Projects 看板
+- ✅ 任务状态跟踪
+- 📅 时间线规划  
+- 👥 团队任务分配
+- 📊 进度可视化
+
+## Milestones
+- 版本发布规划
+- 功能模块分组
+- 进度里程碑
+```
+
+---
+
+## 🛠️ 开发工具
+
+### 💻 GitHub Codespaces
+<details>
+<summary><b>🌩️ 云端开发环境</b></summary>
+
+```json
+{
+  'features': {
+    '云端开发': '浏览器中完整开发环境',
+    '预配置环境': '开箱即用的开发配置', 
+    '多设备同步': '随时随地继续编码',
+    '资源弹性': '按需分配计算资源'
+  }
+}
+```
+
+**使用场景：**
+- 🎒 无需本地环境配置
+- 💻 低配设备也能开发
+- 👥 团队环境统一
+- 🔄 快速 onboarding
+
+</details>
+
+### 📱 GitHub Mobile
+<details>
+<summary><b>📲 移动端全功能支持</b></summary>
+
+- **代码浏览**: 在手机上查看代码
+- **Issue 管理**: 随时随地处理任务
+- **通知中心**: 实时接收重要更新
+- **代码审查**: 移动端 PR 审查
+
+**特色功能：**
+- 📬 智能通知分类
+- 👆 便捷手势操作
+- 🔔 个性化提醒设置
+- 💬 快速评论回复
+
+</details>
+
+---
+
+## 🤖 自动化神器
+
+### ⚡ GitHub Actions
+<details>
+<summary><b>🔄 自动化 CI/CD 流水线</b></summary>
+
+```yaml
+name: 自动化工作流示例
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm test
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest  
+    steps:
+      - run: npm run deploy
+```
+
+**常用场景：**
+- ✅ 自动测试运行
+- 🚀 自动部署发布
+- 📦 自动打包构建
+- 🔍 自动代码检查
+
+</details>
+
+### 🔔 GitHub Packages
+<details>
+<summary><b>📦 一体化包管理</b></summary>
+
+| 包类型 | 描述 | 优势 |
+|--------|------|------|
+| **npm** | JavaScript 包管理 | 与项目代码同仓库 |
+| **Docker** | 容器镜像仓库 | 自动化构建推送 |
+| **Maven** | Java 依赖管理 | 版本统一管理 |
+| **NuGet** | .NET 包管理 | 私有包安全存储 |
+
+</details>
+
+---
+
+## 🔒 安全防护
+
+### 🛡️ 代码安全
+<details>
+<summary><b>🔐 全方位安全保护</b></summary>
+
+```markdown
+## 安全功能矩阵
+- 🔍 **Code Scanning**: 自动代码漏洞检测
+- 📦 **Dependabot**: 依赖安全更新
+- 🔑 **Secret Scanning**: 密钥泄露检测
+- 📋 **Security Policies**: 安全策略定义
+
+## 合规认证
+- SOC 2 Type 2
+- ISO 27001
+- GDPR 合规
+```
+
+**企业级安全：**
+- 🏢 组织级权限管理
+- 👥 团队访问控制
+- 📊 安全审计日志
+- 🔒 单点登录支持
+
+</details>
+
+---
+
+## 🌐 协作功能
+
+### 👥 团队协作
+<details>
+<summary><b>🤝 高效团队协作工具</b></summary>
+
+| 功能 | 描述 | 协作价值 |
+|------|------|----------|
+| **团队讨论** | 项目讨论区 | 异步沟通 |
+| **代码审查** | 内联评论建议 | 质量提升 |
+| **项目看板** | 可视化任务管理 | 进度透明 |
+| **Wiki 文档** | 项目知识库 | 知识沉淀 |
+
+**协作最佳实践：**
+1. **分支策略**: main → develop → feature
+2. **PR 模板**: 标准化代码审查
+3. **Issue 模板**: 规范化问题报告
+4. **CODEOWNERS**: 自动代码审查分配
+
+</details>
+
+### 🌍 开源协作
+<details>
+<summary><b>📚 开源项目管理</b></summary>
+
+```markdown
+## 开源工具集
+- 🏷️ **标签系统**: 分类管理 Issue/PR
+- 📋 **模板系统**: 标准化贡献流程  
+- 👏 **反应功能**: 快速反馈表达
+- 🌟 **Star 机制**: 项目流行度指标
+
+## 社区建设
+- 🗣️ Discussions: 社区交流论坛
+- 📊 Insights: 项目数据分析
+- 👥 Contributors: 贡献者展示
+- 📈 Traffic: 访问统计监控
+```
+
+</details>
+
+---
+
+## 🚀 高级技巧
+
+### ⌨️ 效率快捷键
+<details>
+<summary><b>⚡ 键盘快捷键大全</b></summary>
+
+| 快捷键 | 功能 | 使用频率 |
+|--------|------|----------|
+| `⌘ + K` | 快速仓库跳转 | ⭐⭐⭐⭐⭐ |
+| `⌘ + I` | 创建新 Issue | ⭐⭐⭐⭐☆ |
+| `G + C` | 跳转到代码页 | ⭐⭐⭐⭐☆ |
+| `G + I` | 跳转到 Issues | ⭐⭐⭐⭐☆ |
+| `.` | 打开 Web IDE | ⭐⭐⭐☆☆ |
+
+</details>
+
+### 🎯 隐藏功能
+<details>
+<summary><b>💎 鲜为人知的实用功能</b></summary>
+
+```markdown
+## 代码相关
+- **对比视图**: URL 添加 ?diff=split 查看分屏对比
+- **搜索语法**: 使用 path: extension: 精确搜索代码
+- **快捷键**: 按 T 快速文件搜索
+
+## 项目管理
+- **自动链接**: 输入 # 自动提示 Issue/PR
+- **任务列表**: - [ ] 创建可勾选任务
+- **模板变量**: 在模板中使用 {{ date }} 等变量
+```
+
+</details>
+
+---
+
+## 📊 功能对比指南
+
+### 免费版 vs 付费版
+<details>
+<summary><b>💳 功能差异对比</b></summary>
+
+| 功能 | 免费版 | Pro版 | 企业版 |
+|------|--------|-------|--------|
+| **私有仓库** | ✓ (有限协作) | ✓ (无限协作) | ✓ (高级权限) |
+| **Actions** | 2,000 分钟/月 | 3,000 分钟/月 | 50,000 分钟/月 |
+| **Codespaces** | 120 小时/月 | 180 小时/月 | 自定义额度 |
+| **安全功能** | 基础扫描 | 高级扫描 | 企业级安全 |
+
+</details>
+
+---
+
+<div align='center'>
+
+## 🎉 开始你的 GitHub 之旅
+
+**选择你的学习路径：**
+
+[![基础功能](https://img.shields.io/badge/🎯_基础功能指南-2088FF?style=for-the-badge)](/../../wiki)
+[![高级技巧](https://img.shields.io/badge/🚀_高级技巧大全-28A745?style=for-the-badge)](/../../discussions)
+[![自动化](https://img.shields.io/badge/🤖_自动化工作流-FF6B6B?style=for-the-badge)](/../../actions)
+
+### 📚 推荐学习资源
+- [GitHub Skills](https://skills.github.com/) - 互动学习平台
+- [GitHub Docs](https://docs.github.com/) - 官方完整文档
+- [GitHub Blog](https://github.blog/) - 最新功能发布
+
+**掌握 GitHub，让开发更高效、更愉快！** ✨
+
+</div>
+
+---
+
+<div align='center'>
+
+*💡 提示：将此页面加入书签，随时查阅 GitHub 功能*
+*📅 最后更新: {{ date | date_to_string }}*
+
+</div>。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://XOX-zip.github.io/The-History-of-GitHub/post/%F0%9F%9A%80%20GitHub%20-wan-quan-zhi-nan-%EF%BC%9A-cong-ru-men-dao-jing-tong-de-he-xin-gong-neng-xiang-jie.html">
+<meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
+<title>🚀 GitHub 完全指南：从入门到精通的核心功能详解</title>
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+.copy-feedback {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: var(--color-fg-on-emphasis);
+    background-color: var(--color-fg-muted);
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">🚀 GitHub 完全指南：从入门到精通的核心功能详解</h1>
+<div class="title-right">
+    <a href="https://XOX-zip.github.io/The-History-of-GitHub" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/XOX-zip/The-History-of-GitHub/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><div align="center">
+<h1>🚀 GitHub 完全指南：从入门到精通的核心功能详解</h1>
+<p>解锁 GitHub 的全部潜力，提升开发效率 10 倍！</p>
+</div>
+<hr>
+<h2>📖 目录导航</h2>
+<ul>
+<li><a href="#-%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD">🎯 核心功能</a></li>
+<li><a href="#%EF%B8%8F-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7">🛠️ 开发工具</a></li>
+<li><a href="#-%E8%87%AA%E5%8A%A8%E5%8C%96%E7%A5%9E%E5%99%A8">🤖 自动化神器</a></li>
+<li><a href="#-%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4">🔒 安全防护</a></li>
+<li><a href="#-%E5%8D%8F%E4%BD%9C%E5%8A%9F%E8%83%BD">🌐 协作功能</a></li>
+<li><a href="#-%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7">🚀 高级技巧</a></li>
+</ul>
+<hr>
+<h2>🎯 核心功能</h2>
+<h3>📝 代码托管与版本控制</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>功能</th>
+<th>描述</th>
+<th>适用场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Git 仓库</strong></td>
+<td>分布式版本控制</td>
+<td>所有软件开发项目</td>
+</tr>
+<tr>
+<td><strong>分支管理</strong></td>
+<td>功能分支工作流</td>
+<td>团队协作开发</td>
+</tr>
+<tr>
+<td><strong>代码审查</strong></td>
+<td>Pull Request 流程</td>
+<td>质量保证</td>
+</tr>
+<tr>
+<td><strong>Issue 跟踪</strong></td>
+<td>任务和问题管理</td>
+<td>项目管理</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3>🏗️ 项目管理</h3>
+<div class="highlight highlight-text-md"><pre class="notranslate"><span class="pl-mh">## <span class="pl-en">Projects 看板</span></span>
+<span class="pl-v">-</span> ✅ 任务状态跟踪
+<span class="pl-v">-</span> 📅 时间线规划  
+<span class="pl-v">-</span> 👥 团队任务分配
+<span class="pl-v">-</span> 📊 进度可视化
+
+<span class="pl-mh">## <span class="pl-en">Milestones</span></span>
+<span class="pl-v">-</span> 版本发布规划
+<span class="pl-v">-</span> 功能模块分组
+<span class="pl-v">-</span> 进度里程碑</pre></div>
+<hr>
+<h2>🛠️ 开发工具</h2>
+<h3>💻 GitHub Codespaces</h3>
+<details>
+<summary><b>🌩️ 云端开发环境</b></summary>
+<div class="highlight highlight-source-json"><pre class="notranslate">{
+  <span class="pl-ent">"features"</span>: {
+    <span class="pl-ent">"云端开发"</span>: <span class="pl-s"><span class="pl-pds">"</span>浏览器中完整开发环境<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"预配置环境"</span>: <span class="pl-s"><span class="pl-pds">"</span>开箱即用的开发配置<span class="pl-pds">"</span></span>, 
+    <span class="pl-ent">"多设备同步"</span>: <span class="pl-s"><span class="pl-pds">"</span>随时随地继续编码<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"资源弹性"</span>: <span class="pl-s"><span class="pl-pds">"</span>按需分配计算资源<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<p><strong>使用场景：</strong></p>
+<ul>
+<li>🎒 无需本地环境配置</li>
+<li>💻 低配设备也能开发</li>
+<li>👥 团队环境统一</li>
+<li>🔄 快速 onboarding</li>
+</ul>
+</details>
+<h3>📱 GitHub Mobile</h3>
+<details>
+<summary><b>📲 移动端全功能支持</b></summary>
+<ul>
+<li><strong>代码浏览</strong>: 在手机上查看代码</li>
+<li><strong>Issue 管理</strong>: 随时随地处理任务</li>
+<li><strong>通知中心</strong>: 实时接收重要更新</li>
+<li><strong>代码审查</strong>: 移动端 PR 审查</li>
+</ul>
+<p><strong>特色功能：</strong></p>
+<ul>
+<li>📬 智能通知分类</li>
+<li>👆 便捷手势操作</li>
+<li>🔔 个性化提醒设置</li>
+<li>💬 快速评论回复</li>
+</ul>
+</details>
+<hr>
+<h2>🤖 自动化神器</h2>
+<h3>⚡ GitHub Actions</h3>
+<details>
+<summary><b>🔄 自动化 CI/CD 流水线</b></summary>
+<div class="highlight highlight-source-yaml"><pre class="notranslate"><span class="pl-ent">name</span>: <span class="pl-s">自动化工作流示例</span>
+<span class="pl-ent">on</span>: <span class="pl-s">[push, pull_request]</span>
+<span class="pl-ent">jobs</span>:
+  <span class="pl-ent">test</span>:
+    <span class="pl-ent">runs-on</span>: <span class="pl-s">ubuntu-latest</span>
+    <span class="pl-ent">steps</span>:
+      - <span class="pl-ent">uses</span>: <span class="pl-s">actions/checkout@v3</span>
+      - <span class="pl-ent">run</span>: <span class="pl-s">npm test</span>
+  <span class="pl-ent">deploy</span>:
+    <span class="pl-ent">needs</span>: <span class="pl-s">test</span>
+    <span class="pl-ent">runs-on</span>: <span class="pl-s">ubuntu-latest  </span>
+    <span class="pl-ent">steps</span>:
+      - <span class="pl-ent">run</span>: <span class="pl-s">npm run deploy</span></pre></div>
+<p><strong>常用场景：</strong></p>
+<ul>
+<li>✅ 自动测试运行</li>
+<li>🚀 自动部署发布</li>
+<li>📦 自动打包构建</li>
+<li>🔍 自动代码检查</li>
+</ul>
+</details>
+<h3>🔔 GitHub Packages</h3>
+<details>
+<summary><b>📦 一体化包管理</b></summary>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>包类型</th>
+<th>描述</th>
+<th>优势</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>npm</strong></td>
+<td>JavaScript 包管理</td>
+<td>与项目代码同仓库</td>
+</tr>
+<tr>
+<td><strong>Docker</strong></td>
+<td>容器镜像仓库</td>
+<td>自动化构建推送</td>
+</tr>
+<tr>
+<td><strong>Maven</strong></td>
+<td>Java 依赖管理</td>
+<td>版本统一管理</td>
+</tr>
+<tr>
+<td><strong>NuGet</strong></td>
+<td>.NET 包管理</td>
+<td>私有包安全存储</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+</details>
+<hr>
+<h2>🔒 安全防护</h2>
+<h3>🛡️ 代码安全</h3>
+<details>
+<summary><b>🔐 全方位安全保护</b></summary>
+<div class="highlight highlight-text-md"><pre class="notranslate"><span class="pl-mh">## <span class="pl-en">安全功能矩阵</span></span>
+<span class="pl-v">-</span> 🔍 <span class="pl-s">**</span>Code Scanning<span class="pl-s">**</span>: 自动代码漏洞检测
+<span class="pl-v">-</span> 📦 <span class="pl-s">**</span>Dependabot<span class="pl-s">**</span>: 依赖安全更新
+<span class="pl-v">-</span> 🔑 <span class="pl-s">**</span>Secret Scanning<span class="pl-s">**</span>: 密钥泄露检测
+<span class="pl-v">-</span> 📋 <span class="pl-s">**</span>Security Policies<span class="pl-s">**</span>: 安全策略定义
+
+<span class="pl-mh">## <span class="pl-en">合规认证</span></span>
+<span class="pl-v">-</span> SOC 2 Type 2
+<span class="pl-v">-</span> ISO 27001
+<span class="pl-v">-</span> GDPR 合规</pre></div>
+<p><strong>企业级安全：</strong></p>
+<ul>
+<li>🏢 组织级权限管理</li>
+<li>👥 团队访问控制</li>
+<li>📊 安全审计日志</li>
+<li>🔒 单点登录支持</li>
+</ul>
+</details>
+<hr>
+<h2>🌐 协作功能</h2>
+<h3>👥 团队协作</h3>
+<details>
+<summary><b>🤝 高效团队协作工具</b></summary>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>功能</th>
+<th>描述</th>
+<th>协作价值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>团队讨论</strong></td>
+<td>项目讨论区</td>
+<td>异步沟通</td>
+</tr>
+<tr>
+<td><strong>代码审查</strong></td>
+<td>内联评论建议</td>
+<td>质量提升</td>
+</tr>
+<tr>
+<td><strong>项目看板</strong></td>
+<td>可视化任务管理</td>
+<td>进度透明</td>
+</tr>
+<tr>
+<td><strong>Wiki 文档</strong></td>
+<td>项目知识库</td>
+<td>知识沉淀</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p><strong>协作最佳实践：</strong></p>
+<ol>
+<li><strong>分支策略</strong>: main → develop → feature</li>
+<li><strong>PR 模板</strong>: 标准化代码审查</li>
+<li><strong>Issue 模板</strong>: 规范化问题报告</li>
+<li><strong>CODEOWNERS</strong>: 自动代码审查分配</li>
+</ol>
+</details>
+<h3>🌍 开源协作</h3>
+<details>
+<summary><b>📚 开源项目管理</b></summary>
+<div class="highlight highlight-text-md"><pre class="notranslate"><span class="pl-mh">## <span class="pl-en">开源工具集</span></span>
+<span class="pl-v">-</span> 🏷️ <span class="pl-s">**</span>标签系统<span class="pl-s">**</span>: 分类管理 Issue/PR
+<span class="pl-v">-</span> 📋 <span class="pl-s">**</span>模板系统<span class="pl-s">**</span>: 标准化贡献流程  
+<span class="pl-v">-</span> 👏 <span class="pl-s">**</span>反应功能<span class="pl-s">**</span>: 快速反馈表达
+<span class="pl-v">-</span> 🌟 <span class="pl-s">**</span>Star 机制<span class="pl-s">**</span>: 项目流行度指标
+
+<span class="pl-mh">## <span class="pl-en">社区建设</span></span>
+<span class="pl-v">-</span> 🗣️ Discussions: 社区交流论坛
+<span class="pl-v">-</span> 📊 Insights: 项目数据分析
+<span class="pl-v">-</span> 👥 Contributors: 贡献者展示
+<span class="pl-v">-</span> 📈 Traffic: 访问统计监控</pre></div>
+</details>
+<hr>
+<h2>🚀 高级技巧</h2>
+<h3>⌨️ 效率快捷键</h3>
+<details>
+<summary><b>⚡ 键盘快捷键大全</b></summary>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>快捷键</th>
+<th>功能</th>
+<th>使用频率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">⌘ + K</code></td>
+<td>快速仓库跳转</td>
+<td>⭐⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td><code class="notranslate">⌘ + I</code></td>
+<td>创建新 Issue</td>
+<td>⭐⭐⭐⭐☆</td>
+</tr>
+<tr>
+<td><code class="notranslate">G + C</code></td>
+<td>跳转到代码页</td>
+<td>⭐⭐⭐⭐☆</td>
+</tr>
+<tr>
+<td><code class="notranslate">G + I</code></td>
+<td>跳转到 Issues</td>
+<td>⭐⭐⭐⭐☆</td>
+</tr>
+<tr>
+<td><code class="notranslate">.</code></td>
+<td>打开 Web IDE</td>
+<td>⭐⭐⭐☆☆</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+</details>
+<h3>🎯 隐藏功能</h3>
+<details>
+<summary><b>💎 鲜为人知的实用功能</b></summary>
+<div class="highlight highlight-text-md"><pre class="notranslate"><span class="pl-mh">## <span class="pl-en">代码相关</span></span>
+<span class="pl-v">-</span> <span class="pl-s">**</span>对比视图<span class="pl-s">**</span>: URL 添加 ?diff=split 查看分屏对比
+<span class="pl-v">-</span> <span class="pl-s">**</span>搜索语法<span class="pl-s">**</span>: 使用 path: extension: 精确搜索代码
+<span class="pl-v">-</span> <span class="pl-s">**</span>快捷键<span class="pl-s">**</span>: 按 T 快速文件搜索
+
+<span class="pl-mh">## <span class="pl-en">项目管理</span></span>
+<span class="pl-v">-</span> <span class="pl-s">**</span>自动链接<span class="pl-s">**</span>: 输入 # 自动提示 Issue/PR
+<span class="pl-v">-</span> <span class="pl-s">**</span>任务列表<span class="pl-s">**</span>: - <span class="pl-s">[</span> <span class="pl-s">]</span> 创建可勾选任务
+<span class="pl-v">-</span> <span class="pl-s">**</span>模板变量<span class="pl-s">**</span>: 在模板中使用 {{ date }} 等变量</pre></div>
+</details>
+<hr>
+<h2>📊 功能对比指南</h2>
+<h3>免费版 vs 付费版</h3>
+<details>
+<summary><b>💳 功能差异对比</b></summary>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>功能</th>
+<th>免费版</th>
+<th>Pro版</th>
+<th>企业版</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>私有仓库</strong></td>
+<td>✓ (有限协作)</td>
+<td>✓ (无限协作)</td>
+<td>✓ (高级权限)</td>
+</tr>
+<tr>
+<td><strong>Actions</strong></td>
+<td>2,000 分钟/月</td>
+<td>3,000 分钟/月</td>
+<td>50,000 分钟/月</td>
+</tr>
+<tr>
+<td><strong>Codespaces</strong></td>
+<td>120 小时/月</td>
+<td>180 小时/月</td>
+<td>自定义额度</td>
+</tr>
+<tr>
+<td><strong>安全功能</strong></td>
+<td>基础扫描</td>
+<td>高级扫描</td>
+<td>企业级安全</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+</details>
+<hr>
+<div align="center">
+<h2>🎉 开始你的 GitHub 之旅</h2>
+<p><strong>选择你的学习路径：</strong></p>
+<p><a href="/../../wiki"><img src="https://camo.githubusercontent.com/42f2b7c313eca228659ace0f5c9e97a138ac4b5c007a184e3aa2cdbd6f1f2aa0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2546302539462538452541465f2545352539462542412545372541312538302545352538412539462545382538332542442545362538432538372545352538442539372d3230383846463f7374796c653d666f722d7468652d6261646765" alt="基础功能" data-canonical-src="https://img.shields.io/badge/%F0%9F%8E%AF_%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E6%8C%87%E5%8D%97-2088FF?style=for-the-badge" style="max-width: 100%;"></a><br>
+<a href="/../../discussions"><img src="https://camo.githubusercontent.com/0e48437981f7a261ac26181ca11004234bc36315ddbe80e6837ba0a90c5d6100/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2546302539462539412538305f2545392541422539382545372542412541372545362538412538302545352542372541372545352541342541372545352538352541382d3238413734353f7374796c653d666f722d7468652d6261646765" alt="高级技巧" data-canonical-src="https://img.shields.io/badge/%F0%9F%9A%80_%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7%E5%A4%A7%E5%85%A8-28A745?style=for-the-badge" style="max-width: 100%;"></a><br>
+<a href="/../../actions"><img src="https://camo.githubusercontent.com/5a9c1581e2c513220590cb357cd1abad1cdd969b961fcb7e7c1966914a8053b8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2546302539462541342539365f2545382538372541412545352538412541382545352538432539362545352542372541352545342542442539432545362542352538312d4646364236423f7374796c653d666f722d7468652d6261646765" alt="自动化" data-canonical-src="https://img.shields.io/badge/%F0%9F%A4%96_%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E4%BD%9C%E6%B5%81-FF6B6B?style=for-the-badge" style="max-width: 100%;"></a></p>
+<h3>📚 推荐学习资源</h3>
+<ul>
+<li><a href="https://skills.github.com/">GitHub Skills</a> - 互动学习平台</li>
+<li><a href="https://docs.github.com/">GitHub Docs</a> - 官方完整文档</li>
+<li><a href="https://github.blog/" rel="nofollow">GitHub Blog</a> - 最新功能发布</li>
+</ul>
+<p><strong>掌握 GitHub，让开发更高效、更愉快！</strong> ✨</p>
+</div>
+<hr>
+<div align="center">
+<p><em>💡 提示：将此页面加入书签，随时查阅 GitHub 功能</em><br>
+<em>📅 最后更新: {{ date | date_to_string }}</em></p>
+</div></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://XOX-zip.github.io/The-History-of-GitHub">Blog Title</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if(""!=""){
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'copy': 'M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z', 'check': 'M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","XOX-zip/The-History-of-GitHub");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const createClipboardHTML = (codeContent, additionalClasses = '') => `
+        <pre class="notranslate"><code class="notranslate">${codeContent}</code></pre>
+        <div class="clipboard-container position-absolute right-0 top-0 ${additionalClasses}">
+            <clipboard-copy class="ClipboardButton btn m-2 p-0" role="button" style="display: inherit;">
+                <svg height="16" width="16" class="octicon octicon-copy m-2"><path d="${IconList["copy"]}"></path></svg>
+                <svg height="16" width="16" class="octicon octicon-check color-fg-success m-2 d-none"><path d="${IconList["check"]}"></path></svg>
+            </clipboard-copy>
+            <div class="copy-feedback">Copied!</div>
+        </div>
+    `;
+
+    const handleCodeElements = (selector = '') => {
+        document.querySelectorAll(selector).forEach(codeElement => {
+            const codeContent = codeElement.innerHTML;
+            const newStructure = document.createElement('div');
+            newStructure.className = 'snippet-clipboard-content position-relative overflow-auto';
+            newStructure.innerHTML = createClipboardHTML(codeContent);
+
+            const parentElement = codeElement.parentElement;
+            if (selector.includes('highlight')) {
+                parentElement.insertBefore(newStructure, codeElement.nextSibling);
+                parentElement.removeChild(codeElement);
+            } else {
+                parentElement.parentElement.replaceChild(newStructure, parentElement);
+            }
+        });
+    };
+
+    handleCodeElements('pre.notranslate > code.notranslate');
+    handleCodeElements('div.highlight > pre.notranslate');
+
+    let currentFeedback = null;
+    document.querySelectorAll('clipboard-copy').forEach(copyButton => {
+        copyButton.addEventListener('click', () => {
+            const codeContent = copyButton.closest('.snippet-clipboard-content').innerText;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = codeContent;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextArea);
+
+            const copyIcon = copyButton.querySelector('.octicon-copy');
+            const checkIcon = copyButton.querySelector('.octicon-check');
+            const copyFeedback = copyButton.nextElementSibling;
+
+            if (currentFeedback && currentFeedback !== copyFeedback) {currentFeedback.style.display = 'none';}
+            currentFeedback = copyFeedback;
+
+            copyIcon.classList.add('d-none');
+            checkIcon.classList.remove('d-none');
+            copyFeedback.style.display = 'block';
+            copyButton.style.borderColor = 'var(--color-success-fg)';
+
+            setTimeout(() => {
+                copyIcon.classList.remove('d-none');
+                checkIcon.classList.add('d-none');
+                copyFeedback.style.display = 'none';
+                copyButton.style.borderColor = '';
+            }, 2000);
+        });
+    });
+});
+
+</script>
+
+
+</html>

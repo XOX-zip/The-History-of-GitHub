@@ -1,11 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://XOX-zip.github.io/The-History-of-GitHub</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://XOX-zip.github.io/The-History-of-GitHub</link></image><lastBuildDate>Wed, 01 Oct 2025 01:45:19 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>🚀 GitHub 完全指南：从入门到精通的核心功能详解</title><link>https://XOX-zip.github.io/The-History-of-GitHub/post/%F0%9F%9A%80%20GitHub%20-wan-quan-zhi-nan-%EF%BC%9A-cong-ru-men-dao-jing-tong-de-he-xin-gong-neng-xiang-jie.html</link><description>&lt;div align='center'&gt;
+<div align="center">
 
 # 🚀 GitHub 完全指南：从入门到精通的核心功能详解
 
 解锁 GitHub 的全部潜力，提升开发效率 10 倍！
 
-&lt;/div&gt;
+</div>
 
 ---
 
@@ -48,16 +47,16 @@
 ## 🛠️ 开发工具
 
 ### 💻 GitHub Codespaces
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;🌩️ 云端开发环境&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>🌩️ 云端开发环境</b></summary>
 
 ```json
 {
-  'features': {
-    '云端开发': '浏览器中完整开发环境',
-    '预配置环境': '开箱即用的开发配置', 
-    '多设备同步': '随时随地继续编码',
-    '资源弹性': '按需分配计算资源'
+  "features": {
+    "云端开发": "浏览器中完整开发环境",
+    "预配置环境": "开箱即用的开发配置", 
+    "多设备同步": "随时随地继续编码",
+    "资源弹性": "按需分配计算资源"
   }
 }
 ```
@@ -68,11 +67,11 @@
 - 👥 团队环境统一
 - 🔄 快速 onboarding
 
-&lt;/details&gt;
+</details>
 
 ### 📱 GitHub Mobile
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;📲 移动端全功能支持&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>📲 移动端全功能支持</b></summary>
 
 - **代码浏览**: 在手机上查看代码
 - **Issue 管理**: 随时随地处理任务
@@ -85,15 +84,15 @@
 - 🔔 个性化提醒设置
 - 💬 快速评论回复
 
-&lt;/details&gt;
+</details>
 
 ---
 
 ## 🤖 自动化神器
 
 ### ⚡ GitHub Actions
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;🔄 自动化 CI/CD 流水线&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>🔄 自动化 CI/CD 流水线</b></summary>
 
 ```yaml
 name: 自动化工作流示例
@@ -117,11 +116,11 @@ jobs:
 - 📦 自动打包构建
 - 🔍 自动代码检查
 
-&lt;/details&gt;
+</details>
 
 ### 🔔 GitHub Packages
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;📦 一体化包管理&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>📦 一体化包管理</b></summary>
 
 | 包类型 | 描述 | 优势 |
 |--------|------|------|
@@ -130,15 +129,15 @@ jobs:
 | **Maven** | Java 依赖管理 | 版本统一管理 |
 | **NuGet** | .NET 包管理 | 私有包安全存储 |
 
-&lt;/details&gt;
+</details>
 
 ---
 
 ## 🔒 安全防护
 
 ### 🛡️ 代码安全
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;🔐 全方位安全保护&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>🔐 全方位安全保护</b></summary>
 
 ```markdown
 ## 安全功能矩阵
@@ -159,15 +158,15 @@ jobs:
 - 📊 安全审计日志
 - 🔒 单点登录支持
 
-&lt;/details&gt;
+</details>
 
 ---
 
 ## 🌐 协作功能
 
 ### 👥 团队协作
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;🤝 高效团队协作工具&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>🤝 高效团队协作工具</b></summary>
 
 | 功能 | 描述 | 协作价值 |
 |------|------|----------|
@@ -182,11 +181,11 @@ jobs:
 3. **Issue 模板**: 规范化问题报告
 4. **CODEOWNERS**: 自动代码审查分配
 
-&lt;/details&gt;
+</details>
 
 ### 🌍 开源协作
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;📚 开源项目管理&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>📚 开源项目管理</b></summary>
 
 ```markdown
 ## 开源工具集
@@ -202,15 +201,15 @@ jobs:
 - 📈 Traffic: 访问统计监控
 ```
 
-&lt;/details&gt;
+</details>
 
 ---
 
 ## 🚀 高级技巧
 
 ### ⌨️ 效率快捷键
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;⚡ 键盘快捷键大全&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>⚡ 键盘快捷键大全</b></summary>
 
 | 快捷键 | 功能 | 使用频率 |
 |--------|------|----------|
@@ -220,11 +219,11 @@ jobs:
 | `G + I` | 跳转到 Issues | ⭐⭐⭐⭐☆ |
 | `.` | 打开 Web IDE | ⭐⭐⭐☆☆ |
 
-&lt;/details&gt;
+</details>
 
 ### 🎯 隐藏功能
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;💎 鲜为人知的实用功能&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>💎 鲜为人知的实用功能</b></summary>
 
 ```markdown
 ## 代码相关
@@ -238,15 +237,15 @@ jobs:
 - **模板变量**: 在模板中使用 {{ date }} 等变量
 ```
 
-&lt;/details&gt;
+</details>
 
 ---
 
 ## 📊 功能对比指南
 
 ### 免费版 vs 付费版
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;💳 功能差异对比&lt;/b&gt;&lt;/summary&gt;
+<details>
+<summary><b>💳 功能差异对比</b></summary>
 
 | 功能 | 免费版 | Pro版 | 企业版 |
 |------|--------|-------|--------|
@@ -255,11 +254,11 @@ jobs:
 | **Codespaces** | 120 小时/月 | 180 小时/月 | 自定义额度 |
 | **安全功能** | 基础扫描 | 高级扫描 | 企业级安全 |
 
-&lt;/details&gt;
+</details>
 
 ---
 
-&lt;div align='center'&gt;
+<div align="center">
 
 ## 🎉 开始你的 GitHub 之旅
 
@@ -276,13 +275,13 @@ jobs:
 
 **掌握 GitHub，让开发更高效、更愉快！** ✨
 
-&lt;/div&gt;
+</div>
 
 ---
 
-&lt;div align='center'&gt;
+<div align="center">
 
 *💡 提示：将此页面加入书签，随时查阅 GitHub 功能*
 *📅 最后更新: {{ date | date_to_string }}*
 
-&lt;/div&gt;。</description><guid isPermaLink="true">https://XOX-zip.github.io/The-History-of-GitHub/post/%F0%9F%9A%80%20GitHub%20-wan-quan-zhi-nan-%EF%BC%9A-cong-ru-men-dao-jing-tong-de-he-xin-gong-neng-xiang-jie.html</guid><pubDate>Wed, 01 Oct 2025 01:44:45 +0000</pubDate></item></channel></rss>
+</div>
